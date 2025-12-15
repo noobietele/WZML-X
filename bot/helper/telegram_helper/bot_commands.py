@@ -8,16 +8,9 @@ class BotCommands:
 
     _static_commands = {
         "Mirror": ["mirror", "m"],
-        "QbMirror": ["qbmirror", "qm"],
-        "JdMirror": ["jdmirror", "jm"],
-        "Ytdl": ["ytdl", "y"],
-        "UpHoster": ["uphoster", "up"],
-        "NzbMirror": ["nzbmirror", "nm"],
+        "QbMirror": ["qbmirror", "qm"], 
         "Leech": ["leech", "l"],
-        "QbLeech": ["qbleech", "ql"],
-        "JdLeech": ["jdleech", "jl"],
-        "YtdlLeech": ["ytdlleech", "yl"],
-        "NzbLeech": ["nzbleech", "nl"],
+        "QbLeech": ["qbleech", "ql"],        
         "Clone": ["clone", "cl"],
         "Count": "count",
         "Delete": "del",
@@ -28,11 +21,8 @@ class BotCommands:
         "CancelAll": ["cancelall", "call"],
         "ForceStart": ["forcestart", "fs"],
         "Status": ["status", "s", "statusall"],
-        "MediaInfo": ["mediainfo", "mi"],
-        "Ping": "ping",
         "Restart": ["restart", "r", "restartall"],
         "RestartSessions": ["restartses", "rses"],
-        "Broadcast": ["broadcast", "bc"],
         "Stats": ["stats", "st"],
         "Help": ["help", "h"],
         "Log": "log",
@@ -49,7 +39,6 @@ class BotCommands:
         "BotSet": ["bsetting", "bs"],
         "UserSet": ["usetting", "us"],
         "Select": ["select", "sel"],
-        "NzbSearch": ["nzbsearch", "ns"],
         "Plugins": "plugins",
     }
 
